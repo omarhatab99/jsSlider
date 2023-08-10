@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Slider</title>
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- end webfont -->
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- end fontawsome -->
+    <!-- style -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- end style -->
+</head>
+<body>
+
+    <div class="slider-container">
+        <div class="slider-content">
+            <div class="slider-item">
+                <img src="images/slide1.jpg" alt="slide">
+            </div>
+            <div class="slider-item">
+                <img src="images/slide2.jpg" alt="slide">
+            </div>
+            <div class="slider-item">
+                <img src="images/slide3.jpg" alt="slide">
+            </div>
+            <div class="slider-item">
+                <img src="images/slide4.jpg" alt="slide">
+            </div>
+        </div>
+        <!-- slider heading -->
+        <div class="slider-heading">
+            <h2>iPhone 13 Pro</h2>
+            <h1>هكذا يكون <wbr>Pro<wbr></h1>
+            <p>
+                يحقق <wbr>iPhone 13 Pro<wbr> نقلة نوعية خيالية، فيأتيك بسرعة فائقة لتنجز ما تريد من مهام، وبقدرات رائعة جديدة لإنتاج صور وفيديوهات مذهلة. وكل هذا بمقاسين رائعين.
+            </p>
+        </div>
+        <!-- slider controls button next and prev -->
+        <div class="buttons">
+            <span id="prev" class="slider-controls prev"><i class="fa-solid fa-arrow-left"></i></span>
+            <span id="next" class="slider-controls next"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+
+        <!-- pagination -->
+        <ul class="slider-pagination"></ul>
+    </div>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
